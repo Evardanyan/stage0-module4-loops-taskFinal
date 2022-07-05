@@ -20,9 +20,9 @@ public class HalfPyramid {
                     System.out.print("*");
                 }
             }
-            if (i < cathetusLength - 1) {
+
                 System.out.println();
-            }
+
         }
     }
 

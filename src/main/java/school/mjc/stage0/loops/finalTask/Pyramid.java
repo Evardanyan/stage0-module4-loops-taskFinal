@@ -12,13 +12,14 @@ public class Pyramid {
             for (int r = 2; r <= i; r++) {
                 System.out.print(r);
             }
-            if (i < cathetusLength) {
-                System.out.println();
+            for (int j = cathetusLength - 1; j >= i; j--) {
+                System.out.print("");
             }
+            System.out.println();
         }
     }
 
     public static void main(String[] args) {
-        new Pyramid().printHalfPyramid(7);
+        new Pyramid().printHalfPyramid(9);
     }
 }
