@@ -6,7 +6,7 @@ public class Power {
         if (power < 0) {
             power = -1 * power;
         }
-        for (int i = 0; i <= power; i++) {
+        for (int i = 0; i < power; i++) {
             result = result * numberToPrint;
         }
         System.out.println(result);
