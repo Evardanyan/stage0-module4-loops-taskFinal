@@ -9,7 +9,6 @@ public class Pyramid {
             for (int l = i; l >= 1; l--) {
                 System.out.print(l);
             }
-
             for (int r = 2; r <= i; r++) {
                 System.out.print(r);
             }
